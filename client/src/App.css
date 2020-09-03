@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./design/abstract.png);
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  min-height: 30rem;
+}
+
+form {
+  background: white;
+  height: 30rem;
+  max-width: 350px;
+  border-radius: 5px;
+  padding: 20px;
+  margin-right: 30px;
+  box-shadow: 0px 4px 24px -8px rgba(0, 0, 0, 0.75);
+}
+
+.name-field {
+  margin-bottom: 40px;
+}
+
+button {
+  font-weight: bold;
+  background: transparent;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.chat-view {
+  background: white;
+  height: 30rem;
+  width: 30rem;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 4px 24px -8px rgba(0, 0, 0, 0.75);
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  background: lightcyan;
+  padding-top: 5px;
+  border-radius: 5px;
+  color: plum;
+  margin-bottom: 10px;
+}
+
+span {
+  color: black;
+}
